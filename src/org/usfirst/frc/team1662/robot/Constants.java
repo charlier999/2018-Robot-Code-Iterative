@@ -9,7 +9,7 @@ public class Constants {
 			MRightNum = 3;
 		public static int SLeftNum = 2,
 			SRightNum = 4;
-		
+		f
 		public static int[] shiftNums = {0, 1};
 		
 		public static Value firstGear = Value.kForward,
@@ -31,10 +31,14 @@ public class Constants {
 	}
 	
 	public static class Climber{
-		public static int MClimbNum = 6,
-				CimberUpNum = 5;
-		public static int[] pistonLockNums = {7,6};
+		public static int leftWinchNum = 6,
+				RightWinchNum = 5;
+		public static int[] HookReleaseNum = {7,6};
 		public static Value pistonClosed = Value.kForward,
 				pistonOpen = Value.kReverse;
+		public static int[] WingReleaseNum = {4,5};
+		public static Value WingOpen = Value.kForward,
+				WingClose = Value.kReverse;
 	}
+	
 }
